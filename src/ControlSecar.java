@@ -10,5 +10,8 @@ public class ControlSecar implements IControl {
 	@Override
 	public void ejecutar() {
 		lavadora_Receptor.secar();
+		
+		
+		System.out.println("david la propiia");
 	}
 }
